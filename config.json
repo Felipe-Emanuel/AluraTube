@@ -1,7 +1,34 @@
 {
-  "name": "Mario Souto (DevSoutinho)",
-  "job": "Lead Software Engineer",
-  "github": "omariosouto",
+  "name": "Felipe Emanuel",
+  "job": "Frontend Developer",
+  "github": "Felipe-Emanuel",
+  "favorites": [
+    {
+      "name": "Alura Cursos Online",
+      "profile": "https://yt3.ggpht.com/xqhIoXspeX7eqouJvNHl1xqpv9213Pl26ENZbuouXxO2RlDadjsveNXfgnj8GTUk7thFYUkVRg=s68-c-k-c0x00ffffff-no-rj",
+      "url": "https://www.youtube.com/results?search_query=alura"
+    },
+    {
+      "name": "Filipe Deschamps",
+      "profile": "https://yt3.ggpht.com/ytc/AMLnZu9fwc9E-G17B2vMnbYzZBp_NYs4AmCE802y8x08=s176-c-k-c0x00ffffff-no-rj-mo",
+      "url": "https://www.youtube.com/c/FilipeDeschamps"
+    },
+    {
+      "name": "Lucas Montano",
+      "profile": "https://yt3.ggpht.com/z0Ccoolotr1Q4F2EaCIgaR4GWLAR_VCwP25QrTica_e9XV6x8-kuQx_qnqI1mnaOkYl6KkIL=s88-c-k-c0x00ffffff-no-rj",
+      "url": "https://www.youtube.com/c/LucasMontano"
+    },
+    {
+      "name": "Mario Souto - Dev Soutinho",
+      "profile": "https://yt3.ggpht.com/m8Yrqf0Y81L4mZ1Cq7rGnJ4NDHe6729rxiFZvWyy9-xd_Z7Osmza7J8NWpN1axMHcCb1oKJNgA=s88-c-k-c0x00ffffff-no-rj",
+      "url": "https://www.youtube.com/c/DevSoutinho"
+    },
+    {
+      "name": "Rafaella Ballerini",
+      "profile": "https://yt3.ggpht.com/84ALFuw4UCyfL1TyoMU77D-I6xngPjn2X0kbx2bMAyoFzWwR-utcrbDn_MuNJcroPcmU9NdGGQ=s88-c-k-c0x00ffffff-no-rj",
+      "url": "https://www.youtube.com/c/rafaellaballerini"
+    }
+  ],
   "playlists": {
     "jogos": [
       {
@@ -128,6 +155,33 @@
         "title": "O que é o C#? #HipstersPontoTube",
         "url": "https://www.youtube.com/watch?v=0JWMVc1CqpA",
         "thumb": "https://img.youtube.com/vi/0JWMVc1CqpA/hqdefault.jpg"
+      }
+    ],
+    "Astronomia": [
+      {
+        "title": "A maior estrela do Universo",
+        "url": "https://www.youtube.com/watch?v=UO2IM4ZhZ-Y",
+        "thumb": "https://img.youtube.com/vi/UO2IM4ZhZ-Y/sddefault.jpg"
+      },
+      {
+        "title": "Astrônomos detectam partículas fantasmas vindas de galáxia ativa",
+        "url": "https://www.youtube.com/watch?v=9nUVA8uUel8",
+        "thumb": "https://img.youtube.com/vi/9nUVA8uUel8/sddefault.jpg"
+      },
+      {
+        "title": "MOONRAKER - A missão que irá procurar vida em ENcélado!!!",
+        "url": "https://www.youtube.com/watch?v=SBJ4btAaTtg",
+        "thumb": "https://img.youtube.com/vi/SBJ4btAaTtg/sddefault.jpg"
+      },
+      {
+        "title": "Vários OVNIS detectados no Brasil",
+        "url": "https://www.youtube.com/watch?v=mlMa01QvuHE",
+        "thumb": "https://img.youtube.com/vi/mlMa01QvuHE/sddefault.jpg"
+      },
+      {
+        "title": "Revelação desconcertante em Marte",
+        "url": "https://www.youtube.com/watch?v=-5tuINuCSbM&t=1s",
+        "thumb": "https://img.youtube.com/vi/-5tuINuCSbM/sddefault.jpg"
       }
     ]
   }

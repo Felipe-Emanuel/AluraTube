@@ -3,19 +3,20 @@ import styled from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/TimeLine";
+import { Banner } from "../src/components/Banner";
+import { Favorites } from "../src/components/Favorites";
 
 function HomePage() {
-  const estilosDaHomePage = { 
-    // backgroundColor: "#F00" 
-  };
 
   return (
     <>
       <CSSReset />
-      <div style={estilosDaHomePage}>
+      <div>
         <Menu />
+        <Banner />
         <Header />
         <TimeLine playlists={config.playlists} />
+        <Favorites favorites={config.favorites} />
       </div>
     </>
   );
@@ -42,8 +43,6 @@ const StylesHeader = styled.div`
 function Header() {
   return (
     <StylesHeader>
-      {/* <img src="banner" /> */}
-
       <section className="user-info">
         <img src={`https://github.com/${config.github}.png`} />
         <div>
@@ -62,7 +61,6 @@ function TimeLine(props) {
     <StyledTimeline>
       {playlistNames.map((playlistName) => {
         const videos = props.playlists[playlistName];
-        console.log(videos);
         return (
           <section>
             <h2>{playlistName}</h2>
