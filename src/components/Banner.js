@@ -1,6 +1,5 @@
 import styled from "styled-components";
-
-export function Banner() {
+  
   const StylesBanner = styled.div`
     img {
       width: 100%;
@@ -9,6 +8,8 @@ export function Banner() {
       background-position: center;
     }
   `;
+
+export function Banner() {
   return (
     <StylesBanner>
       <img

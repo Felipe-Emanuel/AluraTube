@@ -24,7 +24,7 @@ const StyledMenu = styled.header`
   }
 `;
 
-export default function Menu() {
+export function Menu() {
   return (
     <StyledMenu>
       <div>

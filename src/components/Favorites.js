@@ -36,14 +36,12 @@ export function Favorites(props) {
         {favoritesNames.map((favorites) => {
           const favUsers = props.favorites[favorites];
           return (
-            <>
-              <section>
-                <a href={favUsers.url} target="_blank">
-                  <img src={favUsers.profile} alt={favUsers.name} />
-                </a>
-                <p>{favUsers.name}</p>
-              </section>
-            </>
+            <section key={Math.random()}>
+              <a href={favUsers.url} target="_blank">
+                <img src={favUsers.profile} alt={favUsers.name} />
+              </a>
+              <p>{favUsers.name}</p>
+            </section>
           );
         })}
       </StylesFavorites>
