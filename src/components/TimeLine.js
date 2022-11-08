@@ -12,12 +12,10 @@ export function TimeLine(props) {
             <div>
               {videos.map((video) => {
                 return (
-                  <div key={Math.random()}>
-                    <a href={video.url}>
-                      <img src={video.thumb} />
-                      <span>{video.title}</span>
-                    </a>
-                  </div>
+                  <a key={Math.random()} href={video.url}>
+                    <img src={video.thumb} />
+                    <span>{video.title}</span>
+                  </a>
                 );
               })}
             </div>
