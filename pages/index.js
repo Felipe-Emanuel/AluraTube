@@ -1,6 +1,5 @@
 import config from "../config.json";
 
-import { CSSReset } from "../src/styles/CSSReset";
 import { Menu } from "../src/components/Menu/Menu";
 import { Banner } from "../src/components/Banner";
 import { Favorites } from "../src/components/Favorites";
@@ -13,7 +12,6 @@ function HomePage() {
 
   return (
     <>
-      <CSSReset />
       <div>
         <Menu search={search} setSearch={setSearch} />
         <Banner />

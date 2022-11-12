@@ -1,6 +1,7 @@
 import { Logo } from "../../styles/SVG/Logo";
 import { StyledMenu } from "../../styles/StyledMenu";
 import Search from "./components/Search";
+import DarkModeSwitch from "./components/DarkModeSwitch";
 
 export function Menu({ search, setSearch }) {
   return (
@@ -8,7 +9,8 @@ export function Menu({ search, setSearch }) {
       <div>
         <Logo />
       </div>
-        <Search search={search} setSearch={setSearch}/>
+      <Search search={search} setSearch={setSearch} />
+      <DarkModeSwitch />
     </StyledMenu>
   );
 }

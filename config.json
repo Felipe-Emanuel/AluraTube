@@ -3,26 +3,6 @@
   "job": "Frontend Developer",
   "github": "Felipe-Emanuel",
   "bg": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
-  "switchMode": [
-    {
-      "darkMode": {
-        "backgroundBase": "#181818",
-        "backgroundLevel1": "#202020",
-        "backgroundLevel2": "#313131",
-        "borderBase": "#383838",
-        "textColorBase": "#FFFFFF"
-      }
-    },
-    {
-      "lightMode": {
-        "backgroundBase": "#F9F9F9",
-        "backgroundLevel1": "#FFFFFF",
-        "backgroundLevel2": "#F0F0F0",
-        "borderBase": "#E5E5E5",
-        "textColorBase": "#222222"
-      }
-    }
-  ],
   "favorites": [
     {
       "name": "Alura Cursos Online",
